@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDCB4FCB16EA974B00668839 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB4FCA16EA974B00668839 /* UIKit.framework */; };
+		FDCB4FCD16EA974B00668839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB4FCC16EA974B00668839 /* Foundation.framework */; };
+		FDCB4FCF16EA974B00668839 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB4FCE16EA974B00668839 /* CoreGraphics.framework */; };
+		FDCB4FD516EA974B00668839 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDCB4FD316EA974B00668839 /* InfoPlist.strings */; };
+		FDCB4FD716EA974B00668839 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCB4FD616EA974B00668839 /* main.m */; };
+		FDCB4FDB16EA974B00668839 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCB4FDA16EA974B00668839 /* AppDelegate.m */; };
+		FDCB4FDD16EA974B00668839 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB4FDC16EA974B00668839 /* Default.png */; };
+		FDCB4FDF16EA974B00668839 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB4FDE16EA974B00668839 /* Default@2x.png */; };
+		FDCB4FE116EA974B00668839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB4FE016EA974B00668839 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDCB4FC716EA974B00668839 /* SimplerMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplerMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCB4FCA16EA974B00668839 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDCB4FCC16EA974B00668839 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDCB4FCE16EA974B00668839 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDCB4FD216EA974B00668839 /* SimplerMerchant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimplerMerchant-Info.plist"; sourceTree = "<group>"; };
+		FDCB4FD416EA974B00668839 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDCB4FD616EA974B00668839 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDCB4FD816EA974B00668839 /* SimplerMerchant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplerMerchant-Prefix.pch"; sourceTree = "<group>"; };
+		FDCB4FD916EA974B00668839 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDCB4FDA16EA974B00668839 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDCB4FDC16EA974B00668839 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FDCB4FDE16EA974B00668839 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FDCB4FE016EA974B00668839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDCB4FC416EA974B00668839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB4FCB16EA974B00668839 /* UIKit.framework in Frameworks */,
+				FDCB4FCD16EA974B00668839 /* Foundation.framework in Frameworks */,
+				FDCB4FCF16EA974B00668839 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDCB4FBE16EA974B00668839 = {
+			isa = PBXGroup;
+			children = (
+				FDCB4FD016EA974B00668839 /* SimplerMerchant */,
+				FDCB4FC916EA974B00668839 /* Frameworks */,
+				FDCB4FC816EA974B00668839 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDCB4FC816EA974B00668839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB4FC716EA974B00668839 /* SimplerMerchant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDCB4FC916EA974B00668839 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB4FCA16EA974B00668839 /* UIKit.framework */,
+				FDCB4FCC16EA974B00668839 /* Foundation.framework */,
+				FDCB4FCE16EA974B00668839 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDCB4FD016EA974B00668839 /* SimplerMerchant */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB4FD916EA974B00668839 /* AppDelegate.h */,
+				FDCB4FDA16EA974B00668839 /* AppDelegate.m */,
+				FDCB4FD116EA974B00668839 /* Supporting Files */,
+			);
+			path = SimplerMerchant;
+			sourceTree = "<group>";
+		};
+		FDCB4FD116EA974B00668839 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB4FD216EA974B00668839 /* SimplerMerchant-Info.plist */,
+				FDCB4FD316EA974B00668839 /* InfoPlist.strings */,
+				FDCB4FD616EA974B00668839 /* main.m */,
+				FDCB4FD816EA974B00668839 /* SimplerMerchant-Prefix.pch */,
+				FDCB4FDC16EA974B00668839 /* Default.png */,
+				FDCB4FDE16EA974B00668839 /* Default@2x.png */,
+				FDCB4FE016EA974B00668839 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDCB4FC616EA974B00668839 /* SimplerMerchant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCB4FE416EA974B00668839 /* Build configuration list for PBXNativeTarget "SimplerMerchant" */;
+			buildPhases = (
+				FDCB4FC316EA974B00668839 /* Sources */,
+				FDCB4FC416EA974B00668839 /* Frameworks */,
+				FDCB4FC516EA974B00668839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplerMerchant;
+			productName = SimplerMerchant;
+			productReference = FDCB4FC716EA974B00668839 /* SimplerMerchant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDCB4FBF16EA974B00668839 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Basil Siddiqui";
+			};
+			buildConfigurationList = FDCB4FC216EA974B00668839 /* Build configuration list for PBXProject "SimplerMerchant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDCB4FBE16EA974B00668839;
+			productRefGroup = FDCB4FC816EA974B00668839 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDCB4FC616EA974B00668839 /* SimplerMerchant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDCB4FC516EA974B00668839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB4FD516EA974B00668839 /* InfoPlist.strings in Resources */,
+				FDCB4FDD16EA974B00668839 /* Default.png in Resources */,
+				FDCB4FDF16EA974B00668839 /* Default@2x.png in Resources */,
+				FDCB4FE116EA974B00668839 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDCB4FC316EA974B00668839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB4FD716EA974B00668839 /* main.m in Sources */,
+				FDCB4FDB16EA974B00668839 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDCB4FD316EA974B00668839 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCB4FD416EA974B00668839 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDCB4FE216EA974B00668839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDCB4FE316EA974B00668839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDCB4FE516EA974B00668839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplerMerchant/SimplerMerchant-Prefix.pch";
+				INFOPLIST_FILE = "SimplerMerchant/SimplerMerchant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDCB4FE616EA974B00668839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplerMerchant/SimplerMerchant-Prefix.pch";
+				INFOPLIST_FILE = "SimplerMerchant/SimplerMerchant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDCB4FC216EA974B00668839 /* Build configuration list for PBXProject "SimplerMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCB4FE216EA974B00668839 /* Debug */,
+				FDCB4FE316EA974B00668839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCB4FE416EA974B00668839 /* Build configuration list for PBXNativeTarget "SimplerMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCB4FE516EA974B00668839 /* Debug */,
+				FDCB4FE616EA974B00668839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDCB4FBF16EA974B00668839 /* Project object */;
+}
