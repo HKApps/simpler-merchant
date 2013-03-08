@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150C97FB5E464DF39E99AED6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E55D774F37C14D5C954C8FAF /* libPods.a */; };
 		FDCB4FCB16EA974B00668839 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB4FCA16EA974B00668839 /* UIKit.framework */; };
 		FDCB4FCD16EA974B00668839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB4FCC16EA974B00668839 /* Foundation.framework */; };
 		FDCB4FCF16EA974B00668839 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB4FCE16EA974B00668839 /* CoreGraphics.framework */; };
@@ -16,9 +17,18 @@
 		FDCB4FDD16EA974B00668839 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB4FDC16EA974B00668839 /* Default.png */; };
 		FDCB4FDF16EA974B00668839 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB4FDE16EA974B00668839 /* Default@2x.png */; };
 		FDCB4FE116EA974B00668839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCB4FE016EA974B00668839 /* Default-568h@2x.png */; };
+		FDCB4FEE16EA99EC00668839 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB4FED16EA99EC00668839 /* AVFoundation.framework */; };
+		FDCB4FF016EA9A0200668839 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB4FEF16EA9A0200668839 /* CoreMedia.framework */; };
+		FDCB4FF216EA9A0800668839 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB4FF116EA9A0800668839 /* CoreVideo.framework */; };
+		FDCB4FF416EA9A1200668839 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB4FF316EA9A1200668839 /* ImageIO.framework */; };
+		FDCB4FF616EA9A1D00668839 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB4FF516EA9A1D00668839 /* QuartzCore.framework */; };
+		FDCB4FFA16EA9ACE00668839 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCB4FF816EA9ACE00668839 /* ViewController.m */; };
+		FDCB4FFB16EA9ACE00668839 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDCB4FF916EA9ACE00668839 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C98FF1550A394E54A114A0AF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		E55D774F37C14D5C954C8FAF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCB4FC716EA974B00668839 /* SimplerMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplerMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCB4FCA16EA974B00668839 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FDCB4FCC16EA974B00668839 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +42,14 @@
 		FDCB4FDC16EA974B00668839 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FDCB4FDE16EA974B00668839 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FDCB4FE016EA974B00668839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FDCB4FED16EA99EC00668839 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FDCB4FEF16EA9A0200668839 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FDCB4FF116EA9A0800668839 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		FDCB4FF316EA9A1200668839 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		FDCB4FF516EA9A1D00668839 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FDCB4FF716EA9ACE00668839 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDCB4FF816EA9ACE00668839 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDCB4FF916EA9ACE00668839 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +57,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDCB4FF616EA9A1D00668839 /* QuartzCore.framework in Frameworks */,
+				FDCB4FF416EA9A1200668839 /* ImageIO.framework in Frameworks */,
+				FDCB4FF216EA9A0800668839 /* CoreVideo.framework in Frameworks */,
+				FDCB4FF016EA9A0200668839 /* CoreMedia.framework in Frameworks */,
+				FDCB4FCF16EA974B00668839 /* CoreGraphics.framework in Frameworks */,
+				FDCB4FEE16EA99EC00668839 /* AVFoundation.framework in Frameworks */,
 				FDCB4FCB16EA974B00668839 /* UIKit.framework in Frameworks */,
 				FDCB4FCD16EA974B00668839 /* Foundation.framework in Frameworks */,
-				FDCB4FCF16EA974B00668839 /* CoreGraphics.framework in Frameworks */,
+				150C97FB5E464DF39E99AED6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +78,7 @@
 				FDCB4FD016EA974B00668839 /* SimplerMerchant */,
 				FDCB4FC916EA974B00668839 /* Frameworks */,
 				FDCB4FC816EA974B00668839 /* Products */,
+				C98FF1550A394E54A114A0AF /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,9 +93,15 @@
 		FDCB4FC916EA974B00668839 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FDCB4FF516EA9A1D00668839 /* QuartzCore.framework */,
+				FDCB4FF316EA9A1200668839 /* ImageIO.framework */,
+				FDCB4FF116EA9A0800668839 /* CoreVideo.framework */,
+				FDCB4FEF16EA9A0200668839 /* CoreMedia.framework */,
+				FDCB4FED16EA99EC00668839 /* AVFoundation.framework */,
 				FDCB4FCA16EA974B00668839 /* UIKit.framework */,
 				FDCB4FCC16EA974B00668839 /* Foundation.framework */,
 				FDCB4FCE16EA974B00668839 /* CoreGraphics.framework */,
+				E55D774F37C14D5C954C8FAF /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -80,6 +111,9 @@
 			children = (
 				FDCB4FD916EA974B00668839 /* AppDelegate.h */,
 				FDCB4FDA16EA974B00668839 /* AppDelegate.m */,
+				FDCB4FF716EA9ACE00668839 /* ViewController.h */,
+				FDCB4FF816EA9ACE00668839 /* ViewController.m */,
+				FDCB4FF916EA9ACE00668839 /* ViewController.xib */,
 				FDCB4FD116EA974B00668839 /* Supporting Files */,
 			);
 			path = SimplerMerchant;
@@ -109,6 +143,7 @@
 				FDCB4FC316EA974B00668839 /* Sources */,
 				FDCB4FC416EA974B00668839 /* Frameworks */,
 				FDCB4FC516EA974B00668839 /* Resources */,
+				709B21F974604446B6D3AE71 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,10 +189,28 @@
 				FDCB4FDD16EA974B00668839 /* Default.png in Resources */,
 				FDCB4FDF16EA974B00668839 /* Default@2x.png in Resources */,
 				FDCB4FE116EA974B00668839 /* Default-568h@2x.png in Resources */,
+				FDCB4FFB16EA9ACE00668839 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		709B21F974604446B6D3AE71 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FDCB4FC316EA974B00668839 /* Sources */ = {
@@ -166,6 +219,7 @@
 			files = (
 				FDCB4FD716EA974B00668839 /* main.m in Sources */,
 				FDCB4FDB16EA974B00668839 /* AppDelegate.m in Sources */,
+				FDCB4FFA16EA9ACE00668839 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +293,7 @@
 		};
 		FDCB4FE516EA974B00668839 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98FF1550A394E54A114A0AF /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimplerMerchant/SimplerMerchant-Prefix.pch";
@@ -250,6 +305,7 @@
 		};
 		FDCB4FE616EA974B00668839 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98FF1550A394E54A114A0AF /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimplerMerchant/SimplerMerchant-Prefix.pch";
@@ -278,6 +334,7 @@
 				FDCB4FE616EA974B00668839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
